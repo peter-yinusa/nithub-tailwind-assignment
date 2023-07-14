@@ -1,0 +1,10 @@
+{
+  "name": "tailwind-project",
+  "main": "index.js",
+  "scripts": {
+    "build-css":"tailwind build src/style.css -o public/style.css"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
